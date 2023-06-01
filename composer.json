@@ -20,5 +20,10 @@
     "ext-libxml": "*",
     "ext-json": "*",
     "ext-simplexml": "*"
+  },
+  "extra": {
+    "think-config": {
+      "pay": "src/config.php"
+    }
   }
 }

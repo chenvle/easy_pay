@@ -2,7 +2,12 @@
 
 class EasyPay extends Base
 {
-    public function __construct()
+    /**
+     * @var array|string[]
+     */
+    protected $config;
+
+    public function __construct($config)
     {
         $this->config = [
             // 必要配置
