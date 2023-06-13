@@ -24,14 +24,13 @@
     "overtrue/wechat": "~5.0"
   },
   "extra": {
-    "think-config": {
-      "pay": "src/config.php"
+    "think": {
+      "config": {
+        "pay": "src/config.php"
+      }
     }
   },
   "scripts":{
-    "post-create-project-cmd": [
-      "@php -r \"file_exists('config/pay.php') || copy('vendor/chenvle/easy_pay/src/config.php', 'config/pay.php');\""
-    ]
   },
   "config": {
     "allow-plugins": {
